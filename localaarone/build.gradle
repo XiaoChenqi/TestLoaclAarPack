@@ -32,5 +32,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     //util
-    api 'com.blankj:utilcode:1.23.7'
+    //api 'com.blankj:utilcode:1.23.7'
 }

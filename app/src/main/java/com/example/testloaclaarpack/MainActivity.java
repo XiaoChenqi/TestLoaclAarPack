@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
         mMethodTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int temp =  DataUtils.getVoiceLineWight(10000);
-                Log.d(TAG, "onClick: "+temp);
+//                int temp =  DataUtils.getVoiceLineWight(10000);
+//                Log.d(TAG, "onClick: "+temp);
             }
         });
     }
