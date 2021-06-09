@@ -39,5 +39,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     //api project(':localaar1')
-    api (name: 'localaar1-debug', ext: 'aar')
+    //api (name: 'localaar1-debug', ext: 'aar')
 }
