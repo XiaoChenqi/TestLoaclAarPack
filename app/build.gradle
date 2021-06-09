@@ -23,11 +23,11 @@ android {
 
 }
 
-repositories {
-    flatDir {
-        dirs 'libs' //this way we can find the .aar file in libs folder
-    }
-}
+//repositories {
+//    flatDir {
+//        dirs 'libs' //this way we can find the .aar file in libs folder
+//    }
+//}
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -40,4 +40,7 @@ dependencies {
 
     //api project(':localaar1')
     //api (name: 'localaar1-debug', ext: 'aar')
+
+
+
 }
